@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+/* START HEADER */
+.wrapper-header {
+  width: 900px;
+  height: 192px;
+}
+
+.list {
+  list-style: none;
+  padding-top: 78px;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.list-item-1 {
+  margin-left: 162px;
+}
+
+.list-item-2 {
+  margin-left: 120px;
+}
+
+.list-item-3 {
+  margin-left: 102px;
+}
+
+.list-item-4 {
+  margin-left: 94px;
+}
+
+.list-link {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.714;
+  color: rgb(98, 98, 98);
+  display: inline-block;
+  }
+
+  .list-item a:hover,
+  .list-item a:focus {
+    color: #03a9f4;
+  }
+/* END HEADER */
+
+/* START MAIN */
+.wrapper-main {
+  width: 900px;
+  height: 1760px;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 426px;
+  height: 612px;
+}
+
+.box-5,
+.box-6 {
+  width: 426px;
+  height: 532px;
+}
+
+.box-2,
+.box-4,
+.box-6 {
+  padding-left: 44px;
+}
+
+.img-wrapper img {
+  width: 420px;
+  height: 280px;
+}
+
+.headline-h4 {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-top: 32px;
+}
+
+.headline-h3 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  padding-top: 30px;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  padding-top: 42px;
+  }
+/* END MAIN */
+
+/* START FOOTER */
+.wrapper-footer {
+  width: 900px;
+  height: 100px;
+}
+
+.btn {
+  width: 164px;
+  height: 60px;
+  border: 1px solid #626262;
+  background-color: #fff;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: auto;
+  position: relative;
+  left: 360px;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    color: #03a9f4;
+    border: 1px solid #03a9f4;
+  }
+/* END FOOTER */
