@@ -211,7 +211,6 @@
   height: 470px;
   cursor: pointer;
   position: relative;
-  padding-bottom: 30px;
 }
 
 .content-gallery__img-effect {
@@ -260,6 +259,7 @@
 .content-gallery__description {
   width: 380px;
   height: 124px;
+  padding-top: 30px;
 }
 
 .content-gallery__h4 {
