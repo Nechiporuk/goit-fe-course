@@ -238,11 +238,12 @@
 .content-gallery__img-effect-btn {
   text-align: center;
   margin: 208px auto;
-  display: none;
+  opacity: 0;
+  transition: all .2s linear;
 }
 
-.content-gallery__img-effect:hover > .content-gallery__img-effect-btn {
-  display: block;
+.content-gallery__img:hover > .content-gallery__img-effect > .content-gallery__img-effect-btn {
+  opacity: .9;
 }
 
 .content-gallery__btn {
