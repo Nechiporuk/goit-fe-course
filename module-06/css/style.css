@@ -225,6 +225,7 @@
   left: 0px;
   bottom: 0;
   right: 0;
+  transition: all .2s linear;
 }
 
 .content-gallery__img:hover > .content-gallery__img-effect {
@@ -232,7 +233,6 @@
   left: -10px;
   background: linear-gradient(180deg, rgba(238, 139, 137, .9), rgba(238, 214, 136, .9));
   box-shadow: 10px 10px 0 rgba(149, 225, 211, .9);
-  transition: all .2s linear;
 }
 
 .content-gallery__img-effect-btn {
