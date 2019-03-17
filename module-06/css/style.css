@@ -147,12 +147,12 @@
   line-height: 1.6;
 }
 
-.headline-two {
+.headline-gallery {
   height: 334px;
   padding-bottom: 10px;
 }
 
-.headline-two__item {
+.headline-gallery__item {
   font: 30px 'Montserrat', sans-serif;
   font-weight: bold;
   line-height: 1;
@@ -162,7 +162,7 @@
   padding-top: 35px;
   }
   
-.headline-two__item::after {
+.headline-gallery__item::after {
   content: "";
   background-color: #f38181;
   width: 60px;
@@ -171,7 +171,7 @@
   margin: 36px auto;
 }
 
-.headline-two__item::before {
+.headline-gallery__item::before {
   content: "Who we are";
   font: 28px "Kaushan Script", cursive;
   color: #333333;
@@ -180,33 +180,33 @@
   text-transform: none;
 }
 
-.headline-two__box {
+.headline-gallery__box {
   margin: 0 auto;
   width: 980px;
   height: 50px;
 }
 
-.headline-two__paragraph {
+.headline-gallery__paragraph {
   font: 15px "Roboto", sans-serif;
   color: rgb(153, 153, 153);
   line-height: 1.9;
   text-align: center;
   }
 
-.content-two {
+.content-gallery {
   height: 620px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.content-two__item {
+.content-gallery__item {
   flex-basis: 380px;
   flex-grow: 0;
   flex-shrink: 0;
 }
 
-.content-two__img {
+.content-gallery__img {
   width: 380px;
   height: 470px;
   cursor: pointer;
@@ -214,7 +214,7 @@
   padding-bottom: 30px;
 }
 
-.content-two__img-effect {
+.content-gallery__img-effect {
   width: 380px;
   height: 470px;
   background: linear-gradient(180deg, rgba(238, 139, 137, .0), rgba(238, 214, 136, .0));
@@ -227,7 +227,7 @@
   right: 0;
 }
 
-.content-two__img:hover > .content-two__img-effect {
+.content-gallery__img:hover > .content-gallery__img-effect {
   top: -10px;
   left: -10px;
   background: linear-gradient(180deg, rgba(238, 139, 137, .9), rgba(238, 214, 136, .9));
@@ -235,34 +235,33 @@
   transition: all .2s linear;
 }
 
-.content-two__img-effect-btn {
-  width: 229px;
-  height: 58px;
+.content-gallery__img-effect-btn {
+  text-align: center;
   margin: 208px auto;
   display: none;
 }
 
-.content-two__img-effect:hover > .content-two__img-effect-btn {
+.content-gallery__img-effect:hover > .content-gallery__img-effect-btn {
   display: block;
 }
 
-.content-two__btn {
+.content-gallery__btn {
   border: none;
   cursor: pointer;
   background: rgba(252, 227, 138, .6);
   margin: -1px;
 }
 
-.content-two__btn:hover {
+.content-gallery__btn:hover {
   background: rgb(149, 225, 211);
 }
 
-.content-two__description {
+.content-gallery__description {
   width: 380px;
   height: 124px;
 }
 
-.content-two__h4 {
+.content-gallery__h4 {
   font: 14px "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
@@ -270,7 +269,7 @@
   text-align: center;
 }
 
-.content-two__p {
+.content-gallery__p {
   font: 15px "Roboto", sans-serif;
   color: rgb(153, 153, 153);
   font-style: italic;
@@ -278,7 +277,7 @@
   text-align: center;
 }
 
-.content-two__box-1 {
+.content-gallery__box-1 {
   padding-bottom: 15px;
 }
 /* END CONTAINER */
