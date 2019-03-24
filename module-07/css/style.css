@@ -1,0 +1,268 @@
+/* START MAIN SETINGS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+margin: 0 auto;
+}
+
+/* END MAIN SETINGS */
+
+/* START HEADER */
+.header {
+  width: 940px;
+  height: 15px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+.logo {
+  align-self: center;
+  padding-left: 4px;
+}
+
+.nav__menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  font: 14px 'Montserrat Bold';
+  transition: 0.2s linear;
+}
+
+.nav__link:hover {
+  color: #fed751;
+}
+
+.nav__link:focus {
+  color: #fed751;
+}
+/* END HEADER */
+
+/* START HEADLINE1 */
+.headline1 {
+  width: 940px;
+  height: 62px;
+  padding-top: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.headline1__content h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 40px 'Montserrat Bold';
+  color: rgb(34, 34, 34);
+  }
+
+.headline1__content p {
+  text-align: center;
+  font-style: italic;
+  font: 16px 'Ubuntu Italic';
+  color: rgb(119, 119, 119);
+}
+
+/* END HEADLINE1 */
+
+/* START CONTENT-FOR-HEADLINE1 */
+.content-for-headline1 {
+  width: 940px;
+  height: 207px;
+  padding: 78px 0 110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.content-for-headline1__box {
+  width: 298px;
+  height: 207px;
+}
+
+.content-for-headline1 img {
+  padding-bottom: 20px;
+}
+
+.content-for-headline1 h3 {
+  padding-bottom: 5px;
+  font: 18px 'Montserrat Bold';
+  color: rgb(34, 34, 34);
+}
+
+.content-for-headline1 p {
+  font: 14px 'RobotoSlab Regular';
+  color: rgb(119, 119, 119);
+  line-height: 1.6;
+}
+
+/* END CONTENT-FOR-HEADLINE1 */
+
+/* START CONTAINER */
+.container {
+  width: 100%;
+  height: 685px;
+  background: #222;
+}
+/* END CONTAINER */
+
+/* START HEADLINE2 */
+.headline2 {
+  width: 940px;
+  height: 68px;
+  padding: 110px 0 78px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.headline2:after {
+  display: block;
+  width: 614px;
+  height: 537px;
+  position: absolute;
+  content: "";
+  background-image: url("../img/map.png");
+  top: 119px;
+  left: 556px;
+
+}
+
+.headline2__content h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 40px 'Montserrat Bold';
+  color: rgb(255, 255, 255);
+}
+
+.headline2__content p {
+  text-align: center;
+  font-style: italic;
+  font: 16px 'Ubuntu Italic';
+  color: rgb(119, 119, 119); 
+}
+/* END HEADLINE2 */
+
+/* START FORM-FOR-HEADLINE2 */
+.form-for-headline2 {
+  width: 940px;
+  height: 212px;
+  margin: 0 auto;
+}
+
+.form__wrp {
+  width: 940px;
+  height: 212px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__wrp__left,
+.form__wrp_right {
+  width: 455px;
+}
+
+.form__box1,
+.form__box2 {
+  padding-bottom: 25px;
+}
+
+input {
+  border: none;
+  box-shadow: none;
+  width: 435px;
+  height: 54px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font: 14px 'Montserrat Bold';
+  color: #222;
+  padding-left: 20px;
+}
+
+textarea {
+  border: none;
+  box-shadow: none;
+  width: 415px;
+  height: 176px;
+  resize: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 18px 20px;
+  font: 14px 'Montserrat Bold';
+  color: #222;  
+}
+
+.contact-input,
+.contact-textarea {
+  outline: 4px solid transparent;
+  outline-offset: -2px;
+  transition: outline-color 0.1s;
+}
+
+input[type="email"]:focus:invalid,
+input[type="text"]:focus:invalid,
+textarea[name="content"]:focus:invalid {
+  outline-color: red;
+  transition: outline-color 5s;
+}
+
+input[type="email"]:focus:valid,
+input[type="text"]:focus:valid,
+textarea[name="content"]:focus:valid {
+  outline-color: green;
+  transition: outline-color .4s;
+}
+/* END FORM-FOR-HEADLINE2 */
+
+/* START FOOTER */
+.footer {
+  width: 940px;
+  height: 66px;
+  padding: 30px 0 116px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__btn {
+  width: 240px;
+  height: 66px;
+  cursor: pointer;
+  background: #fed136;
+  border: 0;
+  border-radius: 3px;
+  font: 18px 'Montserrat Bold';
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  transition: all .1s linear;
+}
+
+.footer__btn:hover {
+  box-shadow: -1px 0px 24px -4px #fff;
+  border: 1px solid #fff;
+}
+
+.footer__btn:active {
+  width: 238px;
+  height: 64px;
+  box-shadow: -1px 0px 10px -4px #fff;
+}
+/* END FOOTER */
