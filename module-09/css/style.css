@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* START: header */
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/header-bg@desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.logo {
+  padding-top: 44px;
+}
+
+.nav__menu {
+  list-style: none;
+  padding: 22px 0 0;
+}
+
+.nav__item {
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.nav__item-1 {
+  margin-right: 5px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  transition: 0.2s linear;
+}
+
+.nav__item:hover {
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: -1px 0px 24px -4px rgb(255, 255, 255);
+  transition: 0.2s linear;
+} 
+.nav__item-2 {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.nav__link {
+  font: 14px "Montserrat", sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+/* END: header */
+/* ------------- */
+/* START: header-box */
+.header-box__headline {
+  text-align: center;
+}
+
+.header-box__headline h1{
+  text-align: center;
+}
+
+.header-box__subtitle {
+  text-align: center;
+}
+
+.header-box__button {
+  text-align: center;
+}
+
+.header-box__headline h1 {
+  font: 30px "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center; 
+}
+
+.header-box__subtitle h2 {
+  font: 18px "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.btn-red {
+  font: 14px "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  width: 280px;
+  height: 40px;
+  background: rgb(255, 78, 80);
+  border: none;
+  border-radius: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-red:hover {
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: -1px 0px 24px -4px rgb(255, 255, 255);
+}
+
+.btn-red:active {
+  width: 278px;
+  height: 40px;
+  box-shadow: -1px 0px 10px -4px #fff;
+}
+/* END: header-box */
+/* -------------- */
+/* START: content */
+.container {
+  margin: 0 auto;
+}
+
+.content__header__headline{
+  font: 22px "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;   
+}
+
+.conten-box__link {
+  text-decoration: none;
+}
+
+.conten-box__img {
+  text-align: center;
+  padding-top: 16px;
+  position: relative;
+  height: 160px;
+}
+
+.conten-box__headline {
+  height: 30px;
+}
+
+.conten-box__headline h4 {
+  font: 14px "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-align: center;
+}
+
+.conten-box__txt{
+  margin: 0 auto;
+  width: 220px;
+}
+
+.conten-box__txt p {
+  font: 14px "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  text-align: center;
+  }
+/* END: content */
+/* ------------ */
+/* START: footer */
+.footer {
+  height: 150px;
+  padding-bottom: 50px;
+}
+
+.btn-white {
+  font: 14px "Montserrat", sans-serif;
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  width: 280px;
+  height: 40px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 78, 80);
+  border-radius: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-white:hover {
+  background: rgb(255, 78, 80);
+  box-shadow: -1px 0px 24px -4px rgb(255, 78, 80);
+  color: rgb(255, 255, 255);
+}
+
+.btn-white:active {
+  width: 278px;
+  height: 40px;
+  box-shadow: -1px 0px 10px -4px rgb(255, 78, 80);
+}
+/* END: footer */
+
+/* START: @MEDIA */
+/* md */
+@media (min-width: 768px) {
+  .container-fluid {
+    margin: 0 auto;
+    height: 700px;
+    background-image: url("../img/header-bg@tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header {
+    padding-bottom: 80px;
+  }
+
+  .header-box__headline h1 {
+    font: 52px "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .header-box__subtitle h2 {
+    font: 24px "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+  .container-fluid {
+    margin: 0 auto;
+    height: 700px;
+    background-image: url("../img/header-bg@desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+/* END: @MEDIA */
