@@ -14,12 +14,14 @@ html {
 
 .container-fluid {
   margin: 0 auto;
-  height: 1000px;
+  min-width: 1200px;
+  min-height: 1000px;
   background-image: url("../img/bg-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .container-fluid {
@@ -30,7 +32,7 @@ html {
 .container {
   margin: 0 auto;
   width: 1200px;
-  height: 1000px;
+  min-height: 1000px;
 }
 
 /* START HEADER */
@@ -102,8 +104,8 @@ html {
   outline: none;
 }
 
-.nav__link--hower:hover,
-.nav__link--hower:focus {
+.nav__link--hover:hover,
+.nav__link--hover:focus {
   color: #fce38a;
   border-bottom: 3px solid #fce38a;
   text-decoration: none;
@@ -113,7 +115,7 @@ html {
 
 .top-content {
   margin: 0 auto;
-  max-width: 1200px;
+  width: 1200px;
   padding-top: 20px;
 }
 
@@ -164,8 +166,8 @@ html {
   transition: 0.2s ease-in-out;
 }
 
-.top-button--hower:hover,
-.top-button--hower:focus {
+.top-button--hover:hover,
+.top-button--hover:focus {
   background: rgba(255, 255, 255, 0.9);
   color: #ffc800;
   border: 3px solid #fce38a;
@@ -180,7 +182,7 @@ html {
 .container-2 {
   margin: 0 auto;
   width: 1200px;
-  height: 1430px;
+  min-height: 1430px;
 }
 
 .headline {
@@ -241,31 +243,31 @@ html {
   display: flex;
 }
 
-.content__item__img {
+.content__item-img {
   width: 84px;
   height: 110px;
   text-align: center;
 }
 
-.content__item__svg {
+.content__item-svg {
   fill: #95e1d3;
   width: 32px;
   height: 32px;
 }
 
-.content__item__txt {
+.content__item-txt {
   width: 298px;
   height: 110px;
 }
 
-.content__item__headline {
+.content__item-headline {
   font: 14px 'Montserrat', sans-serif;
   color: #333333;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.content__item__paragraph {
+.content__item-paragraph {
   font: 15px "Roboto", sans-serif;
   color: rgb(153, 153, 153);
   line-height: 1.6;
@@ -338,14 +340,14 @@ html {
       flex-shrink: 0;
 }
 
-.content-gallery__item__img {
+.content-gallery__img {
   width: 380px;
   height: 470px;
   cursor: pointer;
   position: relative;
 }
 
-.content-gallery__item__img__photo {
+.content-gallery__img-photo {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -355,12 +357,12 @@ html {
   transition: all .2s linear;
 }
 
-.content-gallery__item__img:hover > .content-gallery__item__img__photo {
+.content-gallery__img:hover > .content-gallery__img-photo {
   top: -10px;
   left: -10px;
 }
 
-.content-gallery__item__img-effect {
+.content-gallery__img-effect {
   width: 380px;
   height: 470px;
   background: -webkit-gradient(
@@ -387,13 +389,13 @@ html {
   opacity: 0;
   }
   
-  .content-gallery__item__img:hover > .content-gallery__item__img-effect {
+  .content-gallery__img:hover > .content-gallery__img-effect {
   top: -10px;
   left: -10px;
   opacity: 1;
   }
 
-.content-gallery__item__img-effect-btn {
+.content-gallery__img-effect-btn {
   text-align: center;
   margin: 208px auto;
   opacity: 0;
@@ -401,22 +403,22 @@ html {
   transition: all .2s linear;
 }
 
-.content-gallery__item__img:hover > .content-gallery__item__img-effect > .content-gallery__item__img-effect-btn {
+.content-gallery__img:hover > .content-gallery__img-effect > .content-gallery__img-effect-btn {
   opacity: .9;
 }
 
-.content-gallery__item__btn {
+.content-gallery__item-btn {
   border: none;
   cursor: pointer;
   background: rgba(252, 227, 138, .6);
   margin: -1px;
 }
 
-.content-gallery__item__btn:hover {
+.content-gallery__item-btn:hover {
   background: #f38181;
 }
 
-.content-gallery__item__btn__svg {
+.content-gallery__item-btn-svg {
   display: block;
   width: 32px;
   height: 32px;
@@ -424,17 +426,17 @@ html {
   margin: 15px;
 }
 
-.content-gallery__item__btn:hover .content-gallery__item__btn__svg {
+.content-gallery__item-btn:hover .content-gallery__item-btn-svg {
   fill: rgb(255, 255, 255);
 }
 
-.content-gallery__item__description {
+.content-gallery__description {
   width: 380px;
   height: 124px;
   padding-top: 30px;
 }
 
-.content-gallery__item__description__h4 {
+.content-gallery__description-h4 {
   font: 14px "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
@@ -442,7 +444,7 @@ html {
   text-align: center;
 }
 
-.content-gallery__item__description__p {
+.content-gallery__description-p {
   font: 15px "Roboto", sans-serif;
   color: rgb(153, 153, 153);
   font-style: italic;
@@ -450,7 +452,7 @@ html {
   text-align: center;
 }
 
-.content-gallery__item__description__box-1 {
+.content-gallery__box-1 {
   padding-bottom: 15px;
 }
 /* END CONTAINER */
