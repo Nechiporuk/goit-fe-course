@@ -1,0 +1,27 @@
+.container-fluid {
+  margin: 0 auto;
+  min-width: 1200px;
+  min-height: 1000px;
+  background-image: url("../images/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .container-fluid {
+    background-image: url("../images/bg-img@x2.jpg");
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  min-height: 1000px;
+}
+
+.container-2 {
+  margin: 0 auto;
+  width: 1200px;
+  min-height: 1430px;
+}

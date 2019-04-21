@@ -1,0 +1,71 @@
+.footer {
+  width: 1200px;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;        
+}
+
+.footer__txt {
+  font-family: $mont;
+  font-size: 14px;
+  color: $gray-1;
+}
+
+.footer__link {
+  color: $light-rose;
+  text-decoration: none;
+}
+
+.footer__form {
+  font-size: 0;
+  vertical-align: middle;
+}
+  
+.footer__input--style {
+  font-size: 16px;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  vertical-align: middle;
+}
+  
+.footer__input-email {
+  width: 230px;
+  height: 40px;
+  border: 1px solid $dark-white;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+  
+.footer__input-submit {
+  width: 152px;
+  height: 40px;
+  background: $turquoise;
+  border: none;
+  color: $white;
+  text-transform: uppercase;
+  font-family: $mont;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+  
+.footer__input-email::-webkit-input-placeholder {
+  @include placeholder-style;
+}
+  
+.footer__input-email:-ms-input-placeholder {
+  @include placeholder-style;
+}
+  
+.footer__input-email::placeholder {
+  @include placeholder-style;
+}

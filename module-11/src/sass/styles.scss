@@ -1,0 +1,14 @@
+/* Import partials below */
+@import './helpers/variables';
+@import './helpers/mixins';
+@import './normalize';
+@import './base';
+
+/* Components */
+@import './components/container';
+@import './components/header';
+@import './components/down-header';
+@import './components/main-container';
+@import './components/footer';
+@import './components/headline-gallery';
+@import './components/content-gallery';

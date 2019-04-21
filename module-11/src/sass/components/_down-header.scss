@@ -1,0 +1,68 @@
+.top-content {
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 20px;
+
+  .top_title {
+    font-family: $mont;
+    font-size: 150px;
+    font-weight: bold;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 50px 0;
+    line-height: 0.933; 
+  }
+
+  .top_title--subtitle::before {
+    content: "Creative Template";
+    font-family: $kaus-cursiv;
+    font-size: 72px;
+    display: block;
+    margin: 25px auto;
+    text-transform: none;
+  }
+}
+
+ 
+.wrp-button {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  .top-button {
+    font-family: $mont;
+    font-size: 14px;
+    font-weight: bold;
+    color: $white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    border: 3px solid white;
+    background: none;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
+
+  .top-button--hover:hover,
+  .top-button--hover:focus {
+  background: $transparent;
+  color: $dark-yellow;
+  border: 3px solid $yellow;
+  }
+
+  .top-button--active:active {
+  width: 156px;
+  height: 36px;
+  }
+}

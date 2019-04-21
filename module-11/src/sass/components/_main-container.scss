@@ -1,0 +1,91 @@
+.headline {
+  height: 190px;
+
+  &__item {
+    font-family: $mont;
+    font-size: 30px;
+    font-weight: bold;
+    color: $gray;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2px;
+  }
+
+  &__item::after {
+    content: '';
+    background-color: $rose;
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 34px auto;
+  }
+  
+  &__item::before {
+    content: 'We work with';
+    font-family: $kaus-cursiv;
+    font-size: 24px;
+    color: $gray;
+    display: block;
+    margin: 8px auto;
+    text-transform: none;
+  }
+}
+
+.content {
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  &__item {
+    -ms-flex-preferred-size: 400px;
+    flex-basis: 400px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 110px;
+    margin-bottom: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    .content__item-img {
+      width: 84px;
+      height: 110px;
+      text-align: center;
+
+      .content__item-svg {
+        fill: $turquoise;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+
+.content__item-txt {
+  width: 298px;
+  height: 110px;
+
+  .content__item-headline {
+    font-family: $mont;
+    font-size: 14px;
+    color: $gray;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .content__item-paragraph {
+    font-family: $roboto;
+    font-size: 15px;
+    color: $light-gray;
+    line-height: 1.6;
+  }
+}

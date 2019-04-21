@@ -1,0 +1,48 @@
+.headline-gallery {
+  height: 334px;
+  padding-bottom: 10px;
+
+  &__item {
+    font-family: $mont;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    color: $gray;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 35px;
+  }
+
+  &__item::after {
+    content: '';
+    background-color: $rose;
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 36px auto;
+  }
+  
+  &__item::before {
+    content: 'Who we are';
+    font-family: $kaus-cursiv;
+    font-size: 28px;
+    color: $gray;
+    display: block;
+    margin: 12px auto;
+    text-transform: none;
+  }
+
+  &__box {
+    margin: 0 auto;
+    width: 980px;
+    height: 50px;
+
+    .headline-gallery__paragraph {
+      font-family: $roboto;
+      font-size: 15px;
+      color: $light-gray;
+      line-height: 1.9;
+      text-align: center;
+    }
+  }
+}
