@@ -1,0 +1,57 @@
+@media (min-width: 768px) {
+  .rewards-container {
+    width: 748px;
+    min-height: 696px;
+  }
+
+  .rewards-description {
+    width: 600px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+
+  .rewards-subtitle {
+    @include acrom-extrabold-black;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 40px;
+    margin: 20px 0 0;
+  }
+  .rewards-name {
+    @include acrom-regular-black;
+    font-size: 16px;
+
+    &--partners {
+      margin: 0 0 0 10px;
+    }
+  }
+  .rewards-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .our_rewards-body__partners-ul {
+    width: 704px;
+  }
+
+  .rewards-social {
+    background-size: 35%;
+    background-position: top right;
+    width: 418px;
+    margin-bottom: 40px;
+  }
+
+  .rewards-partners {
+    width: 654px;
+    margin: 0 auto;
+
+    &__logo {
+      width: 100%;
+    }
+  }
+
+  .rewards-logo {
+    padding: 10px;
+  }
+}

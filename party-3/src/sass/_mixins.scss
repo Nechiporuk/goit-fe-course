@@ -61,3 +61,8 @@
   font-family: $acrom-regular;
   color: rgb(93, 96, 102);
 }
+
+@mixin acrom-regular-gray_2 {
+  font-family: $acrom-regular;
+  color: rgb(107, 111, 122);;
+}
